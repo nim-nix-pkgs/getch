@@ -11,7 +11,6 @@
   inputs.src-getch-master.ref   = "refs/heads/master";
   inputs.src-getch-master.owner = "6A";
   inputs.src-getch-master.repo  = "getch";
-  inputs.src-getch-master.dir   = "";
   inputs.src-getch-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
